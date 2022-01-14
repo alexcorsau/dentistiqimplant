@@ -5,7 +5,7 @@ import cover from '../../images/cover.jpeg';
 const Content = () => {
   return (
     <div className={styles.content}>
-      <img className={styles.img} src={cover} />
+      <img className={styles.img} src={cover} alt='Cover' />
     </div>
   );
 };

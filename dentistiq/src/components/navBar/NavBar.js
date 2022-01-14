@@ -5,7 +5,7 @@ import logo from '../../images/simple-logo.jpeg';
 const NavBar = () => {
   return (
     <div className={styles.navBar}>
-      <img className={styles.img} src={logo} />
+      <img className={styles.img} src={logo} alt='Logo' />
       <button className={styles.button}>Acasa</button>
       <button className={styles.button}>Despre noi</button>
       <button className={styles.button}>Servicii</button>
