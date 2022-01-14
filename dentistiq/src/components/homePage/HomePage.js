@@ -6,7 +6,7 @@ import Content from '../content/Content';
 
 const HomePage = () => {
   return (
-    <div className={styles.HomePage}>
+    <div className={styles.homePage}>
       <NavBar />
       <Content />
       <Footer />

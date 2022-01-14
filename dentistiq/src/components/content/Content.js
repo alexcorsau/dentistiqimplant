@@ -1,9 +1,11 @@
 import React from 'react';
+import styles from './Content.module.css';
+import cover from '../../images/cover.jpeg';
 
 const Content = () => {
   return (
-    <div>
-      <h1>Content</h1>
+    <div className={styles.content}>
+      <img className={styles.img} src={cover} />
     </div>
   );
 };

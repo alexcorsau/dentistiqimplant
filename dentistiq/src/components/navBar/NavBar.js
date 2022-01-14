@@ -1,15 +1,17 @@
 import React from 'react';
 import styles from './NavBar.module.css';
+import logo from '../../images/simple-logo.jpeg';
 
 const NavBar = () => {
   return (
-    <div className={styles.NavBar}>
-      <h2>Logo</h2>
-      <h2>Acasa</h2>
-      <h2>Despre noi</h2>
-      <h2>Servicii</h2>
-      <h2>Galerie</h2>
-      <h2>Contact</h2>
+    <div className={styles.navBar}>
+      <img className={styles.img} src={logo} />
+      <button className={styles.button}>Acasa</button>
+      <button className={styles.button}>Despre noi</button>
+      <button className={styles.button}>Servicii</button>
+      <button className={styles.button}>Galerie</button>
+      <button className={styles.button}>Contact</button>
+      <button className={styles.button}>FB</button>
     </div>
   );
 };
