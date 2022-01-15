@@ -1,13 +1,30 @@
 .footer {
   color: white;
   background-color: rgb(70, 196, 74);
-  height: 170px;
+  height: 171px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .program {
   padding-top: 10px;
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+  .footer {
+    flex-direction: column;
+    height: 221px;
+    justify-content: right;
+    text-align: center;
+  }
+
+  .program {
+    font-size: smaller;
+    margin-left: 0;
+  }
+
+  .programTitle {
+    font-size: smaller;
+  }
 }

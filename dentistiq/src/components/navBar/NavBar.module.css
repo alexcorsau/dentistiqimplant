@@ -12,14 +12,35 @@
   border-radius: 50%;
 }
 
-.button {
+.facebookIcon {
+  width: 35px;
+  height: 35px;
   border: none;
-  background: none;
-  font-size: 1.5rem;
-  color: white;
-  font-weight: bold;
+  border-radius: 10%;
 }
 
-.button:hover {
+.facebookIcon:hover {
   cursor: pointer;
+  border-radius: 50%;
+}
+
+.facebookIcon:active {
+  transform: translateY(4px);
+}
+
+@media only screen and (max-width: 650px) {
+  .navBar {
+    flex-direction: column;
+    height: 300px;
+    font-size: smaller;
+  }
+
+  .facebookIcon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .img {
+    height: 50px;
+  }
 }
