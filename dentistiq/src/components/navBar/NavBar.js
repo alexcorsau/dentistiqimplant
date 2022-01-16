@@ -3,15 +3,36 @@ import styles from './NavBar.module.css';
 import logo from '../../images/simple-logo.jpeg';
 import facebook from '../../images/Facebook.png';
 import Button from '../button/Button';
+import { useState } from 'react';
 
-const buttons = ['Acasă', 'Despre noi', 'Servicii', 'Galerie', 'Contact'];
+// const buttons = [
+//   { text: 'Acasă', link: '/' },
+//   { text: 'Despre noi', link: '/' },
+//   { text: 'Servicii', link: '/' },
+//   { text: 'Galerie', link: '/' },
+//   { text: 'Contact', link: '/contactPage' },
+// ];
 
 const NavBar = () => {
+  const [buttons, setButtons] = useState([
+    { text: 'Acasă', link: '/' },
+    { text: 'Despre noi', link: '/' },
+    { text: 'Servicii', link: '/' },
+    { text: 'Galerie', link: '/' },
+    { text: 'Contact', link: '/contactPage' },
+  ]);
+
   return (
     <div className={styles.navBar}>
       <img className={styles.img} src={logo} alt='Logo' />
       {buttons.map((button, index) => {
-        return <Button key={index} buttonText={button} />;
+        return (
+          <Button
+            key={index}
+            buttonText={button.text}
+            buttonLink={button.link}
+          />
+        );
       })}
       <a
         href='https://www.facebook.com/dentistiq.ro'
