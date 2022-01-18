@@ -1,7 +1,7 @@
 .footer {
   color: white;
   background-color: rgb(70, 196, 74);
-  height: 171px;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -14,7 +14,6 @@
 @media only screen and (max-width: 650px) {
   .footer {
     flex-direction: column;
-    height: 221px;
     justify-content: right;
     text-align: center;
   }
@@ -22,6 +21,7 @@
   .program {
     font-size: smaller;
     margin-left: 0;
+    padding-top: 0;
   }
 
   .programTitle {
