@@ -18,7 +18,7 @@ const NavBar = () => {
     { text: 'Acasă', link: '/' },
     { text: 'Despre noi', link: '/' },
     { text: 'Servicii', link: '/' },
-    { text: 'Galerie', link: '/' },
+    { text: 'Galerie', link: '/galleryPage' },
     { text: 'Contact', link: '/contactPage' },
   ]);
 
