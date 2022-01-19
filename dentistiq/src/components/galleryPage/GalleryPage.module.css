@@ -1,9 +1,7 @@
 .galleryPage {
-  display: block;
   height: 450px;
   background-color: rgb(59, 59, 59);
   text-align: center;
-  padding-top: 45px;
 }
 
 .img {
@@ -11,6 +9,7 @@
   height: 200px;
   padding-left: 2px;
   padding-right: 2px;
+  padding-top: 15px;
 }
 
 .img:hover {
