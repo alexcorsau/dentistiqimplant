@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Content.module.css';
-import cover from '../../images/cover.jpeg';
+import cover from '../../images/new-cover.jpg';
 
 const Content = () => {
   return (
