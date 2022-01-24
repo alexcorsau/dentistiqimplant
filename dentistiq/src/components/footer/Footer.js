@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import logo from '../../images/simple-logo.jpeg';
+import logo from '../../images/logo.jpeg';
 
 const program = [
   'Luni, Miercuri și Joi: 15:00 - 21:00',

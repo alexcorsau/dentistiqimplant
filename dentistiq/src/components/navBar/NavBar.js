@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './NavBar.module.css';
-import logo from '../../images/logo.jpeg';
+import logo from '../../images/simple-logo.jpeg';
 import facebook from '../../images/Facebook.png';
 import Button from '../button/Button';
 import { useState } from 'react';
