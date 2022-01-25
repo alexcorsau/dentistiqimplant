@@ -5,19 +5,11 @@ import facebook from '../../images/Facebook.png';
 import Button from '../button/Button';
 import { useState } from 'react';
 
-// const buttons = [
-//   { text: 'Acasă', link: '/' },
-//   { text: 'Despre noi', link: '/' },
-//   { text: 'Servicii', link: '/' },
-//   { text: 'Galerie', link: '/' },
-//   { text: 'Contact', link: '/contactPage' },
-// ];
-
 const NavBar = () => {
   const [buttons, setButtons] = useState([
     { text: 'Acasă', link: '/' },
-    { text: 'Despre noi', link: '/' },
-    { text: 'Servicii', link: '/' },
+    { text: 'Despre noi', link: '/despreNoi' },
+    { text: 'Servicii', link: '/servicii' },
     { text: 'Galerie', link: '/galleryPage' },
     { text: 'Contact', link: '/contactPage' },
   ]);
