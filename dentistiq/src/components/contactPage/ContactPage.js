@@ -1,11 +1,18 @@
 import React from 'react';
+import Map from './contactMap/contactMap';
 import styles from './ContactPage.module.css';
+import { Wrapper, Status } from "@googlemaps/react-wrapper";
 
 const ContactPage = () => {
   return (
-    <div className={styles.contactPage}>
-      <h1 className={styles.title}>Contact Page</h1>
-    </div>
+      
+      <div className={styles.contactPage}>
+
+      <Map>
+
+      </Map>
+      </div>
+   
   );
 };
 
