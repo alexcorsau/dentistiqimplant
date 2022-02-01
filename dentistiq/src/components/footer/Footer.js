@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <h1>
-        <u className={styles.programTitle}>Program:</u>
+        <u className={styles.programTitle}>ORAR:</u>
       </h1>
       <div className={styles.program}>
         {program.map((schedule, index) => {

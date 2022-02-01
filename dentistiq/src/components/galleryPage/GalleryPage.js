@@ -14,6 +14,7 @@ const GalleryPage = () => {
   return (
     <div className={styles.galleryPage}>
       <div>
+        <h3 className={styles.title}>Galerie</h3>
         <div>
           <img className={styles.img} src={photo1} alt='Photo1'></img>
           <img className={styles.img} src={photo2} alt='Photo2'></img>

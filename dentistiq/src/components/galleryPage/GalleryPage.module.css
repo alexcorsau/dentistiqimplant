@@ -4,7 +4,12 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.title {
+  color: white;
+  font-size: x-large;
 }
 
 .img {
@@ -20,13 +25,13 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .img {
-    width: 100px;
-    height: 55px;
+  .title {
+    font-size: 15px;
   }
 
-  .img:hover {
-    transform: scale(2);
+  .img {
+    width: 80px;
+    height: 43px;
   }
 
   .galleryPage {
@@ -35,13 +40,19 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .title {
+    font-size: 15px;
+  }
+
   .img {
     width: 80px;
     height: 43px;
   }
+
   .img:hover {
     transform: scale(1.5);
   }
+
   .galleryPage {
     height: 200px;
   }

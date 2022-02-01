@@ -1,0 +1,14 @@
+.echipa {
+  height: 450px;
+  background-color: rgb(228, 228, 228);
+}
+
+.title {
+  margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .echipa {
+    height: 200px;
+  }
+}

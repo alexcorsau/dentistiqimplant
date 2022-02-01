@@ -1,14 +1,36 @@
 .despreNoi {
   height: 450px;
   background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../../images/about.jpg');
+  background-size: 100% 500px;
+  color: white;
 }
 
 .title {
-  margin: 0;
+  font-size: x-large;
+}
+
+.text {
+  width: 500px;
+  text-align: justify;
+  font-weight: normal;
+  font-size: larger;
 }
 
 @media only screen and (max-width: 900px) {
   .despreNoi {
     height: 200px;
+    background-size: 100% 100%;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .text {
+    font-size: 10px;
+    width: 90%;
   }
 }
