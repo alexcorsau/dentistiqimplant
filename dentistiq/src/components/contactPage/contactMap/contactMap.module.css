@@ -1,26 +1,12 @@
-.map {
-  display: block;
-  /* width: auto; */
-  /* height: auto; */
-}
-
-.mapouter {
-  /* width: auto; */
+iframe,
+object,
+embed {
   width: 100%;
-  /* height: auto; */
-  height: 100%;
 }
 
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 500px;
-  width: 700px;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 500px;
-  width: 700px;
+#gmap_canvas {
+  flex-grow: 1;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
