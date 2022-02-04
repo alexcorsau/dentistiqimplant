@@ -1,0 +1,94 @@
+.modalBackground {
+  width: 100vw;
+  height: 450px;
+  background-image: linear-gradient(rgb(59, 59, 59), rgb(160, 160, 160));
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 500px;
+  height: 250px;
+  border-radius: 12px;
+  background-image: linear-gradient(rgb(240, 240, 240), rgb(150, 150, 150));
+  /* background-color: white; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5 px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px 30px 25px;
+}
+
+.title {
+  font-size: 10px;
+}
+
+.modalCOntainer .title {
+  display: inline-block;
+  text-align: flex-end;
+  margin-top: 10px;
+}
+
+.titleCloseButton {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.xBtn {
+  background-color: white;
+  height: 30px;
+  border-radius: 5px;
+  color: red;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.xBtn:hover {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.modalContainer .body {
+  flex: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+  text-align: left;
+}
+
+/* .modalContainer */
+
+@media only screen and (max-width: 900px) {
+  .img {
+    height: 200px;
+  }
+
+  .modalBackground {
+    height: 200px;
+  }
+
+  .modalContainer {
+    height: 150px;
+    width: 400px;
+  }
+
+  .modalContainer .body {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 5px;
+  }
+
+  .xBtn {
+    height: 15px;
+    font-size: 10px;
+  }
+}
