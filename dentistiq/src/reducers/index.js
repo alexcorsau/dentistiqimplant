@@ -1,12 +1,12 @@
 import pathReducer from './pathReducer';
 import selectReducer from './selectReducer';
-// import serviciiReducer from './serviciiReducer';
+import serviciiReducer from './serviciiReducer';
 import { combineReducers } from 'redux';
 
 const reducers = combineReducers({
   pathReducer,
   selectReducer,
-  //   serviciiReducer,
+  serviciiReducer,
 });
 
 export default reducers;
