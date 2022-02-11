@@ -2,20 +2,12 @@ import React, { useState } from 'react';
 import styles from './Servicii.module.css';
 import logo from '../../images/simple-logo.jpeg';
 import Modal from '../modal/Modal';
-import { useSelector, useDispatch } from 'react-redux';
-import {
-  proteica,
-  implantologie,
-  chirurgie,
-  ododontie,
-  endodontie,
-  ortodontie,
-} from '../../actions/servicii';
+import { useSelector } from 'react-redux';
+import serviciiActions from '../../actions/servicii';
 
 const Servicii = () => {
   const [openModal, setOpenModal] = useState(false);
   const serviciiStore = useSelector((state) => state.serviciiReducer);
-  const dispatch = useDispatch();
 
   return (
     <div className={styles.servicii}>
@@ -26,7 +18,7 @@ const Servicii = () => {
             <img
               onClick={() => {
                 setOpenModal(true);
-                dispatch(proteica('PROTEICA'));
+                serviciiActions.protetica('Protetica');
               }}
               className={styles.img}
               src={logo}
@@ -38,7 +30,7 @@ const Servicii = () => {
             <img
               onClick={() => {
                 setOpenModal(true);
-                dispatch(implantologie('IMPLANTOLOGIE'));
+                serviciiActions.implantologie();
               }}
               className={styles.img}
               src={logo}
@@ -50,7 +42,7 @@ const Servicii = () => {
             <img
               onClick={() => {
                 setOpenModal(true);
-                dispatch(chirurgie('CHIRURGIE'));
+                serviciiActions.chirurgie();
               }}
               className={styles.img}
               src={logo}
@@ -64,7 +56,7 @@ const Servicii = () => {
             <img
               onClick={() => {
                 setOpenModal(true);
-                dispatch(ododontie('ODODONTIE'));
+                serviciiActions.ododontie();
               }}
               className={styles.img}
               src={logo}
@@ -76,7 +68,7 @@ const Servicii = () => {
             <img
               onClick={() => {
                 setOpenModal(true);
-                dispatch(endodontie('ENDODONTIE'));
+                serviciiActions.endodontie();
               }}
               className={styles.img}
               src={logo}
@@ -88,7 +80,7 @@ const Servicii = () => {
             <img
               onClick={() => {
                 setOpenModal(true);
-                dispatch(ortodontie('ORTODONTIE'));
+                serviciiActions.ortodontie();
               }}
               className={styles.img}
               src={logo}

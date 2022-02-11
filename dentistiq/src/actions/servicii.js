@@ -1,48 +1,41 @@
-import { PROTEICA } from './actionTypes';
-import { IMPLANTOLOGIE } from './actionTypes';
-import { CHIRURGIE } from './actionTypes';
-import { ODODONTIE } from './actionTypes';
-import { ENDODONTIE } from './actionTypes';
-import { ORTODONTIE } from './actionTypes';
+import actionType from './actionTypes';
+import { dispatch } from '../store/store';
 
-export const proteica = (path) => {
-  return {
-    type: PROTEICA,
-    payload: path,
-  };
-};
+export default {
+  protetica: (path) => {
+    dispatch({
+      type: actionType.PROTETICA,
+      payload: path,
+    });
+  },
 
-export const implantologie = (path) => {
-  return {
-    type: IMPLANTOLOGIE,
-    payload: path,
-  };
-};
+  implantologie: () => {
+    dispatch({
+      type: actionType.IMPLANTOLOGIE,
+    });
+  },
 
-export const chirurgie = (path) => {
-  return {
-    type: CHIRURGIE,
-    payload: path,
-  };
-};
+  chirurgie: () => {
+    dispatch({
+      type: actionType.CHIRURGIE,
+    });
+  },
 
-export const ododontie = (path) => {
-  return {
-    type: ODODONTIE,
-    payload: path,
-  };
-};
+  ododontie: () => {
+    dispatch({
+      type: actionType.ODODONTIE,
+    });
+  },
 
-export const endodontie = (path) => {
-  return {
-    type: ENDODONTIE,
-    payload: path,
-  };
-};
+  endodontie: () => {
+    dispatch({
+      type: actionType.ENDODONTIE,
+    });
+  },
 
-export const ortodontie = (path) => {
-  return {
-    type: ORTODONTIE,
-    payload: path,
-  };
+  ortodontie: () => {
+    dispatch({
+      type: actionType.ORTODONTIE,
+    });
+  },
 };

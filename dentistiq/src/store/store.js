@@ -6,4 +6,6 @@ const store = createStore(
   window._REDUX_DEVTOOLS_EXTENSION_ && window._REDUX_DEVTOOLS_EXTENSION_()
 );
 
+export const { dispatch } = store;
+
 export default store;

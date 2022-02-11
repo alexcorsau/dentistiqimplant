@@ -1,8 +1,8 @@
-import { BUTTONS } from './actionTypes';
+import { dispatch } from '../store/store';
+import actionType from './actionTypes';
 
-export const buttons = (path) => {
-  return {
-    type: BUTTONS,
-    payload: path,
-  };
+export const buttons = () => {
+  dispatch({
+    type: actionType.BUTTONS,
+  });
 };
