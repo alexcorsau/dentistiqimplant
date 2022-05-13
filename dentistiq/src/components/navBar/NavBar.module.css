@@ -1,6 +1,7 @@
 .navBar {
   color: white;
-  background-color: rgb(29, 158, 40);
+  /* background-color: rgb(29, 158, 40); */
+  background-color: var(--main-color);
   height: 100px;
   display: flex;
   justify-content: space-evenly;
