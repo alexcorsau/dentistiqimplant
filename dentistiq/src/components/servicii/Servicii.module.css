@@ -1,10 +1,11 @@
 .servicii {
-  height: 450px;
+  height: calc(100vh - 250px);
   background-image: linear-gradient(rgb(59, 59, 59), rgb(160, 160, 160));
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  overflow: scroll;
 }
 
 .firstList {
@@ -19,6 +20,16 @@
   display: flex;
   justify-content: center;
   font-size: x-large;
+}
+
+.serviciu {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
 }
 
 .img {
@@ -40,20 +51,27 @@
   margin-top: 0;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   .servicii {
-    height: 200px;
+    height: calc(100vh - 460px);
   }
   .img {
     width: 30px;
     height: 30px;
   }
-
   .title {
     font-size: smaller;
   }
-
   .text {
     font-size: small;
+  }
+  .serviciu {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
   }
 }

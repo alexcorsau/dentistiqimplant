@@ -14,7 +14,7 @@ const Servicii = () => {
       <h1 className={styles.title}>Serviciile noastre</h1>
       <div className={styles.serviciiList}>
         <div className={styles.firstList}>
-          <div>
+          <div className={styles.serviciu}>
             <img
               onClick={() => {
                 setOpenModal(true);
@@ -26,7 +26,7 @@ const Servicii = () => {
             ></img>
             <p className={styles.text}>Protetică</p>
           </div>
-          <div>
+          <div className={styles.serviciu}>
             <img
               onClick={() => {
                 setOpenModal(true);
@@ -38,7 +38,7 @@ const Servicii = () => {
             ></img>
             <p className={styles.text}>Implantologie</p>
           </div>
-          <div>
+          <div className={styles.serviciu}>
             <img
               onClick={() => {
                 setOpenModal(true);
@@ -52,7 +52,7 @@ const Servicii = () => {
           </div>
         </div>
         <div className={styles.firstList}>
-          <div>
+          <div className={styles.serviciu}>
             <img
               onClick={() => {
                 setOpenModal(true);
@@ -64,7 +64,7 @@ const Servicii = () => {
             ></img>
             <p className={styles.text}>Ododonţie</p>
           </div>
-          <div>
+          <div className={styles.serviciu}>
             <img
               onClick={() => {
                 setOpenModal(true);
@@ -76,7 +76,7 @@ const Servicii = () => {
             ></img>
             <p className={styles.text}>Endodonţie</p>
           </div>
-          <div>
+          <div className={styles.serviciu}>
             <img
               onClick={() => {
                 setOpenModal(true);

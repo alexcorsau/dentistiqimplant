@@ -7,9 +7,9 @@ import styles from '../src/styles/styles.module.css'
 function App() {
   return (
     <Provider store={store}>
-      <div>
+      {/* <div> */}
         <HomePage />
-      </div>
+      {/* </div> */}
     </Provider>
   );
 }
