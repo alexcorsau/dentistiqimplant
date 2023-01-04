@@ -10,11 +10,7 @@
     "react-dom": "16.8.6",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
-<<<<<<< HEAD
     "react-scripts": "^5.0.1",
-=======
-    "react-scripts": "^3.2.0",
->>>>>>> 6dc0ae6a692c61020386f9b1bb6015fd5f06fe27
     "redux": "^4.1.2"
   },
   "devDependencies": {
