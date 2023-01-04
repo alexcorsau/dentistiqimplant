@@ -1,0 +1,25 @@
+.echipa {
+  background-image: linear-gradient(rgb(59, 59, 59), rgb(160, 160, 160));
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: flex-start;
+  height: calc(100vh - 250px);
+}
+
+.echipaImg {
+  align-self: center;
+  width: 80%;
+}
+
+.img{
+  align-self: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .echipa {
+    height: calc(100vh - 460px);
+  }
+}

@@ -1,0 +1,61 @@
+.navBar {
+  background-color: var(--main-color);
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.img {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.facebookIcon {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 10%;
+}
+
+.facebookIcon:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.facebookIcon:active {
+  transform: translateY(4px);
+}
+
+@media only screen and (max-width: 850px) and (min-width: 600px) {
+  .navBar {
+    height: 100px;
+    font-size: smaller;
+  }
+  .facebookIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .img {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    flex-direction: column;
+    height: 250px;
+    font-size: smaller;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .facebookIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .img {
+    height: 50px;
+  }
+}

@@ -1,0 +1,12 @@
+iframe,
+object,
+embed {
+  width: 100%;
+}
+
+#gmap_canvas {
+  flex-grow: 1;
+  border: none;
+  margin: 0;
+  padding: 0;
+}

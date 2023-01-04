@@ -1,0 +1,15 @@
+.contactPage {
+  display: flex;
+  height: calc(100vh - 250px);
+  background-color: black;
+}
+
+.title {
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactPage {
+    height: calc(100vh - 460px);
+  }
+}

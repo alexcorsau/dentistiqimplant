@@ -1,0 +1,47 @@
+.despreNoi {
+  height: calc(100vh - 250px);
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../../images/about.jpg');
+  color: white;
+  overflow: scroll;
+}
+
+.title {
+  font-size: x-large;
+}
+
+.text {
+  width: 500px;
+  text-align: justify;
+  font-weight: normal;
+  font-size: larger;
+}
+
+@media only screen and (max-width: 600px) {
+  .despreNoi {
+    height: calc(100vh - 460px);
+  }
+  .title {
+    font-size: 17px;
+  }
+  .text {
+    margin-top: 0;
+    font-size: 14px;
+    width: 90%;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 15px;
+  }
+  .text {
+    /* font-size: 10px; */
+    width: 90%;
+  }
+}

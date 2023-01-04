@@ -1,0 +1,51 @@
+.galleryPage {
+  height: calc(100vh - 250px);
+  background-image: linear-gradient(rgb(59, 59, 59), rgb(160, 160, 160));
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+
+.title {
+  color: white;
+  font-size: x-large;
+}
+
+.img {
+  width: 180px;
+  height: 100px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.img:hover {
+  transform: scale(2.5);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .galleryPage {
+    height: calc(100vh - 460px);
+  }
+
+  .title {
+    font-size: 15px;
+  }
+  
+  .img {
+    width: 90px;
+    height: 55px;
+  }
+  .img:hover {
+    transform: scale(1.5);
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .img:hover {
+    transform: scale(1.2);
+  }
+}
