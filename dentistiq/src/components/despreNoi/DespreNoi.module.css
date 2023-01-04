@@ -1,13 +1,13 @@
 .despreNoi {
-  height: 450px;
+  height: calc(100vh - 250px);
   background-color: rgb(228, 228, 228);
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   background-image: url('../../images/about.jpg');
-  background-size: 100% 500px;
   color: white;
+  overflow: scroll;
 }
 
 .title {
@@ -21,10 +21,9 @@
   font-size: larger;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   .despreNoi {
-    height: 200px;
-    background-size: 100% 100%;
+    height: calc(100vh - 460px);
   }
   .title {
     font-size: 17px;
@@ -36,16 +35,13 @@
   }
 }
 
+
 @media only screen and (max-width: 450px) {
-  .despreNoi {
-    height: 200px;
-    background-size: 100% 100%;
-  }
   .title {
     font-size: 15px;
   }
   .text {
-    font-size: 10px;
+    /* font-size: 10px; */
     width: 90%;
   }
 }

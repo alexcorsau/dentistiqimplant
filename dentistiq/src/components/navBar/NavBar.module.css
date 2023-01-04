@@ -1,6 +1,5 @@
 .navBar {
-  color: white;
-  background-color: rgb(29, 158, 40);
+  background-color: var(--main-color);
   height: 100px;
   display: flex;
   justify-content: space-evenly;
@@ -30,20 +29,32 @@
   transform: translateY(4px);
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 850px) and (min-width: 600px) {
   .navBar {
-    flex-direction: column;
-    height: 250px;
+    height: 100px;
     font-size: smaller;
-    padding-top: 5px;
-    padding-bottom: 5px;
   }
-
   .facebookIcon {
     height: 30px;
     width: 30px;
   }
+  .img {
+    height: 50px;
+  }
+}
 
+@media only screen and (max-width: 600px) {
+  .navBar {
+    flex-direction: column;
+    height: 250px;
+    font-size: smaller;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .facebookIcon {
+    height: 30px;
+    width: 30px;
+  }
   .img {
     height: 50px;
   }

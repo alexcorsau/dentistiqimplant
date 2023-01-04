@@ -1,5 +1,5 @@
 .modalBackground {
-  width: 100vw;
+  width: 90vw;
   height: 450px;
   background-image: linear-gradient(rgb(59, 59, 59), rgb(160, 160, 160));
   position: fixed;
@@ -10,7 +10,7 @@
 
 .modalContainer {
   width: 500px;
-  height: 250px;
+  min-height: 250px;
   border-radius: 12px;
   background-image: linear-gradient(rgb(240, 240, 240), rgb(109, 109, 109));
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5 px 15px;
@@ -64,9 +64,9 @@
 
 /* .modalContainer */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   .img {
-    height: 200px;
+    height: 300px;
   }
 
   .modalBackground {
