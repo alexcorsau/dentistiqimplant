@@ -8,7 +8,7 @@ const DespreNoi = () => {
       <h4 className={styles.text}>
         La Dentistiq Implant vrem să demonstrăm că vizita la stomatolog poate fi o
         experiență plăcută, care nu va mai fi privită cu groază sau emoție. În
-        fiecare locație Dentistiq vei găsi aceleași standarde de calitate a
+        fiecare locație Dentistiq Implant vei găsi aceleași standarde de calitate a
         actului medical și a materialelor utilizate, accentul pus pe igienă și
         siguranță și aceeași abordare zâmbitoare și prietenoasă, astfel încât,
         oriunde ne vei vizita, vei avea parte de o experiență cât mai bună.

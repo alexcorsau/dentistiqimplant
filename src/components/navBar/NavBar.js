@@ -5,18 +5,9 @@ import facebook from '../../images/Facebook.png';
 import Button from '../button/Button';
 import { useSelector } from 'react-redux';
 import { buttons } from '../../actions/buttons';
-// import { useState } from 'react';
 
 const NavBar = () => {
   const buttonsPath = useSelector((state) => state.pathReducer);
-
-  // const [buttons, setButtons] = useState([
-  //   { text: 'Acasă', link: '/' },
-  //   { text: 'Despre noi', link: '/despreNoi' },
-  //   { text: 'Servicii', link: '/servicii' },
-  //   { text: 'Galerie', link: '/galleryPage' },
-  //   { text: 'Contact', link: '/contactPage' },
-  // ]);
 
   return (
     <div className={styles.navBar}>

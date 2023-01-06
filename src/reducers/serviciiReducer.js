@@ -30,7 +30,7 @@ const serviciiReducer = (state = initialState, action) => {
     case 'ORTODONTIE':
       state.serviciu = 'Ortodonție';
       state.text =
-        'Ortodonţia cuprinde cu diagnosticarea, prevenirea şi tratamentul malocluziei, adica poziţia incorectă a dinţilor şi oaselor maxilare. Aceasta influenţează atât echilibrul feţei, armonia profilului şi zâmbetul, cât şi masticaţia corectă şi igiena dentară. De aceea, tratamentul ortodontic nu este necesar doar din considerente estetice, ci şi pentru păstrarea sănătăţii dentare; dinţii corect poziţionaţi elimină durerile din articulaţia maxilarului, dificultăţile de mestecat, iar dinţii se pot curăţa mai uşor, evitând astfel apariţia altor probleme.';
+        'Ortodonţia se ocupă cu diagnosticarea, prevenirea şi tratamentul malocluziei, adica poziţia incorectă a dinţilor şi oaselor maxilare. Aceasta influenţează atât echilibrul feţei, armonia profilului şi zâmbetul, cât şi masticaţia corectă şi igiena dentară. De aceea, tratamentul ortodontic nu este necesar doar din considerente estetice, ci şi pentru păstrarea sănătăţii dentare; dinţii corect poziţionaţi elimină durerile din articulaţia maxilarului, dificultăţile de mestecat, iar dinţii se pot curăţa mai uşor, evitând astfel apariţia altor probleme.';
       break;
     default:
       return state;
